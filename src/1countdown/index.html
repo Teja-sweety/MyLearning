@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="details">
+        <div class="visible">
+            <button></button>
+            <h3>enter ur details</h3>
+        </div>
+        <form action="script.js" onsubmit="displayFunction()">
+            <label>your msg :</label>
+            <input type="text" id="message">
+            <label>date :</label>
+            <input type="date" id="date">
+            <button type="submit" id="sButton">submit</button>
+        </form>
+
+    </div>
+    <h1>NEW YEARS EVE !!!</h1>
+    <div class="countDown-c">
+        <div class="element">
+            <p class="big-text" id="days">0</p>
+            <span>days</span>
+        </div>
+        <div class="element">
+            <p class="big-text" id="hours">0</p>
+            <span>hrs</span>
+        </div>
+        <div class="element">
+            <p class="big-text" id="mins">0</p>
+            <span>min</span>
+        </div>
+        <div class="element">
+            <p class="big-text" id="seconds">0</p>
+            <span>sec</span>
+        </div>
+
+    </div>
+</body>
+</html>
