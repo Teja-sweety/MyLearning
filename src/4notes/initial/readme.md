@@ -1,2 +1,2 @@
-creating a notes app
+creating a notes application
  
