@@ -12,4 +12,6 @@ creating a notes application
     to achive this we used a library 'marked'
     content typed in textarea is taken (e.target//value)and
     'main' div content is replaced with it.
- 
+4.we use localstorage to store notes text
+    new command used in this is  document.querySelectorAll()
+    we store texts in LS in an array (easy to retrive)
