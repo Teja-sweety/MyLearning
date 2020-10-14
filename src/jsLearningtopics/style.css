@@ -1,0 +1,35 @@
+body{
+    background: #FFEFBA; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    
+ 
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: rosybrown;
+    display: flex;
+    width: 500px;
+    padding:3px;
+    margin: 2px;
+    justify-content: space-between;
+    
+}
+.menu button{
+    padding: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.info{
+    width: 500px;
+    height:400px;
+    padding: 5px;
+    margin:3px;
+    background-color: sandybrown;
+    justify-content: center;
+}
